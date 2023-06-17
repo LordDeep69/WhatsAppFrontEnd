@@ -34,6 +34,7 @@ body {
   margin-bottom: 150px;
 }
 .main__form__button {
+  text-decoration: none;
   padding: 10px 20px;
   margin: 30px 30px 0px 30px;
   font-size: 16px;
@@ -42,9 +43,19 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  color: black;
 }
 .main__form__button:hover {
   background-color: rgb(98, 210, 162);
+  color: white;
+}
+.main__form__button-link {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.main__form__button-link:hover {
+  color: white;
 }
 .main__form__chaticon {
   display: grid;
@@ -93,7 +104,7 @@ body {
   transition: box-shadow 0.3s ease;
 }
 .main__form-input-container-input-icon {
-  width: 18px; /* Ajusta el ancho de los iconos aquí */
-  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  width: 18px;
+  height: auto;
   margin-right: 10px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=loguin.css.map */
